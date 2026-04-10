@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: wheat;
+}
+
+main{
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    margin: 70px auto;
+    padding: 10px;
+    border-radius: 10px;
+
+    
+}
+
+div{
+background-color: #f7cf79;
+border: solid 1px;
+border-radius: 4px;
+margin-bottom: 5px;
+text-align: center;
+padding: 8px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-rows: auto auto 3fr auto;
+    grid-template-columns: repeat(2,1fr);
+    flex-wrap: auto;
+}
+
+
+div:hover{
+    padding: 15px;
+    background-color: black;
+    transition: all 0.5s;
+}
