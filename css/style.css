@@ -77,3 +77,13 @@ table,th{
 aside{
     float: right;
 }
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+form label,form input,form select,form textarea,form button{
+    width: 100%;
+}
