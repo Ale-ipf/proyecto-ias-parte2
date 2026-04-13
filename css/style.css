@@ -29,6 +29,30 @@ p{
     text-align: left;
 }
 
+nav{
+    background-color: rgb(56, 172, 61);
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li a{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 1.5s;
+    transition: color 1.5s;
+}
+
+nav ul li a:hover{
+    color: black;
+    border-color: rgb(226, 255, 160);
+    background-color: rgb(226, 255, 160);
+}
+
 main{
     background-color: white;
     width: 500px;
