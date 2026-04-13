@@ -1,10 +1,17 @@
-*{
+* {
     margin: 0;
-    padding: 0;
 }
 
 body{
-    background-color: wheat;
+    background-color: rgb(226, 255, 160);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    min-height:100vh
 }
 
 main{
@@ -14,8 +21,6 @@ main{
     margin: 70px auto;
     padding: 10px;
     border-radius: 10px;
-
-    
 }
 
 div{
@@ -26,14 +31,6 @@ margin-bottom: 5px;
 text-align: center;
 padding: 8px;
 }
-
-.contenedor{
-    display: grid;
-    grid-template-rows: auto auto 3fr auto;
-    grid-template-columns: repeat(2,1fr);
-    flex-wrap: auto;
-}
-
 
 div:hover{
     padding: 15px;
