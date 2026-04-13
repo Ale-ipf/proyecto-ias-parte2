@@ -53,28 +53,14 @@ nav ul li a:hover{
     background-color: rgb(226, 255, 160);
 }
 
+main section ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
 main{
-    background-color: white;
-    width: 500px;
-    height: 250px;
-    margin: 70px auto;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-div{
-background-color: #f7cf79;
-border: solid 1px;
-border-radius: 4px;
-margin-bottom: 5px;
-text-align: center;
-padding: 8px;
-}
-
-div:hover{
     padding: 15px;
-    background-color: black;
-    transition: all 0.5s;
 }
 
 figure{
@@ -87,7 +73,6 @@ table{
 table,th{
     border: solid 0.1px;
 }
-
 
 aside{
     float: right;
