@@ -74,6 +74,14 @@ table,th{
     border: solid 0.1px;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.1px;
+    background-color: rgb(56, 172, 61);
+}
+
 aside{
     float: right;
 }
